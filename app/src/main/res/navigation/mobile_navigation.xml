@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_products">
+
+    <fragment
+        android:id="@+id/navigation_products"
+        android:name="com.code2bind.shopzen.ui.products.ProductFragment"
+        android:label="@string/title_products"
+        tools:layout="@layout/fragment_products" />
+
+    <fragment
+        android:id="@+id/navigation_shops"
+        android:name="com.code2bind.shopzen.ui.shops.ShopFragment"
+        android:label="@string/title_shops"
+        tools:layout="@layout/fragment_shops" />
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.code2bind.shopzen.ui.cart.CartFragment"
+        android:label="@string/title_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/navigation_contact"
+        android:name="com.code2bind.shopzen.ui.contact.ContactFragment"
+        android:label="@string/title_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

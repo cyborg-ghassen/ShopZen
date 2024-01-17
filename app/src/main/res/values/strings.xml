@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShopZen</string>
+    <string name="title_products">Products</string>
+    <string name="title_shops">Shops</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_contact">Contact</string>
+    <string name="ajouter_au_panier">Ajouter au panier</string>
+    <string name="total">Total</string>
+    <string name="confirmer_la_commande">Confirmer la commande</string>
+    <string name="nom">Nom</string>
+    <string name="telephone">Téléphone</string>
+    <string name="email">Email</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="qte">Qte</string>
+    <string name="_1">1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
